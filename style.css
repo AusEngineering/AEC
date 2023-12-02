@@ -278,7 +278,7 @@ header .navigation li a:hover {
 
 
 
-
+/*
 
 
 .ourProjects {
@@ -317,7 +317,7 @@ header .navigation li a:hover {
 }
 
 
-/*
+
 
 .ourProjects p {
     margin-left: 4vh;
@@ -326,7 +326,7 @@ header .navigation li a:hover {
     margin-bottom: 2vh;
 }
 
-*/
+
 
 .img1 img {
     margin: 4vh;
@@ -379,7 +379,7 @@ header .navigation li a:hover {
 
 
 
-
+*/
 
 
 
@@ -447,6 +447,8 @@ header .navigation li a:hover {
     border-bottom: 1px solid black;
     border-collapse: collapse;
     padding: 2vh;
+    padding-right: 8vh;
+    padding-left: 8vh;
 }
 
 .ourServices td {
@@ -460,9 +462,10 @@ header .navigation li a:hover {
     margin-top: 20vh;
     margin-left: 50vh;
     margin-right: 45vh;
-    margin-bottom: 20vh;
+    margin-bottom: 28vh;
     scale: 1.5;
     cursor: pointer;
+    text-align: center;
 }
 
 
@@ -489,7 +492,7 @@ header .navigation li a:hover {
 
 
 .ourServices .twoRow {
-    padding-right: 5vh;
+    padding-right: 6vh;
 }
 
 
