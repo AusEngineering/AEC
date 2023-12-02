@@ -103,7 +103,7 @@ header .navigation li a:hover {
 
 
 .homeImg {
-    background-image: linear-gradient(rgba(0, 136, 255, 0.3), rgba(0, 136, 255, 0.3)), url(./img/homeImg.png);
+    background-image: linear-gradient(rgba(0, 136, 255, 0.3), rgba(0, 136, 255, 0.3)), url(./img/Opera\ house\ and\ Hrbour\ Bridge.jpg);
     background-repeat: no-repeat;
     height: 63vh;
     width: 100%;
@@ -236,7 +236,7 @@ header .navigation li a:hover {
     text-align: center;
     font-size: 25px;
     padding-left: 85vh;
-    margin-top: -88.78vh;
+    margin-top: -54.28vh;
     margin-bottom: 6vh;
 }
 
@@ -253,8 +253,8 @@ header .navigation li a:hover {
 
 .aboutImg img {
     background-repeat: no-repeat;
-    height: 95vh;
-    width: 75vh;
+    height: 60vh;
+    width: 80vh;
 }   
 
 
