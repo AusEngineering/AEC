@@ -300,31 +300,32 @@
 
 
 
-        <form>
+        <form action="insert.php" method="post">
                         
             <label class="formTitle" for="title">Do you have a comment? Fill the form below: </label>
 
             <div class="formBox">
                 <br> <br> <label for="name">Name (Required): </label> <br>
-                <textarea name="Text1" id="name" cols="40" rows="5" placeholder="Enter your name..."></textarea>
+                <textarea name="name" cols="40" rows="5" placeholder="Enter your name..."></textarea>
             </div>
 
             <div class="formBox">
                 <br> <label for="email">E-Mail (Required): </label> <br>
-                <textarea name="Text2" id="email" cols="40" rows="5" placeholder="Enter your email..."></textarea>
+                <textarea name="email" cols="40" rows="5" placeholder="Enter your email..."></textarea>
             </div>
 
             <div class="formBox2">
                 <br> <br> <label for="comment">Please provide your comments, questions or concerns below: </label> <br>
-                <textarea name="Text3" id="comment" cols="40" rows="5" placeholder="Enter your comment/s"></textarea>
+                <textarea name="comment" cols="40" rows="5" placeholder="Enter your comment/s"></textarea>
 
-                <br> <br> <button class="formButton" id="btn">Click to add</button>
+                <br> <br> <button class="formButton" type="submit" name="submit">Click to add</button>
             </div>
 
             <div id="msg">
                 <pre></pre>
             </div>
 
+        <!--
             <script>
 
                 let comments = [];
@@ -350,6 +351,7 @@
 
                 console.warn('Added' , {comments} );
                 let pre = document.querySelector('#msg pre')
+                pre.textContent = '\n' + JSON.stringify(comments, '\t', 2)
 
 
                 localStorage.setItem('CommentSection', JSON.stringify(comments) );
@@ -360,6 +362,8 @@
                     document.getElementById('btn').addEventListener('click', addComment);  
                 })
             </script>
+        -->
+
         </form>
 
     </section>
