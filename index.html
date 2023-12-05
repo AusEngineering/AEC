@@ -298,9 +298,7 @@
 
     <section class="contactBox" id="contactBox">
 
-
-
-        <form action="insert.php" method="post">
+        <form action="https://formsubmit.co/makomoud8@email.com" method="POST">
                         
             <label class="formTitle" for="title">Do you have a comment? Fill the form below: </label>
 
@@ -324,45 +322,6 @@
             <div id="msg">
                 <pre></pre>
             </div>
-
-        <!--
-            <script>
-
-                let comments = [];
-
-                const addComment = (ev)=>{
-
-                ev.preventDefault();
-
-                let commentSec = {
-                    
-                    id: Date.now(),
-
-                    name: document.getElementById('name').value,
-
-                    email: document.getElementById('email').value,
-
-                    comment: document.getElementById('comment').value
-
-                }
-
-                comments.push(commentSec);
-                document.forms[0].reset();
-
-                console.warn('Added' , {comments} );
-                let pre = document.querySelector('#msg pre')
-                pre.textContent = '\n' + JSON.stringify(comments, '\t', 2)
-
-
-                localStorage.setItem('CommentSection', JSON.stringify(comments) );
-
-                }
-
-                document.addEventListener('DOMContentLoaded', ()=>{
-                    document.getElementById('btn').addEventListener('click', addComment);  
-                })
-            </script>
-        -->
 
         </form>
 
